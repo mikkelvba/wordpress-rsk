@@ -1,0 +1,28 @@
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.thumb-hover,
+.grid-hover {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.grid-hover img {
+  @include transition-normal(.5s);
+  vertical-align: middle;
+  opacity: 1;
+  &:hover {
+    transform:scale(1.1);
+    -ms-transform:scale(1.1); /* IE 9 */
+    -moz-transform:scale(1.1); /* Firefox */
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -o-transform:scale(1.1); /* Opera */
+    opacity: .5;
+  }
+}

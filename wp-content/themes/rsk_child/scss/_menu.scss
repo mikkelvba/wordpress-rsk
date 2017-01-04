@@ -1,0 +1,134 @@
+.main-navigation {
+
+  ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    display: block;
+    font-weight: 700;
+    text-decoration: none;
+    color: $black;
+    text-transform: uppercase;
+  }
+
+  ul ul {
+    background-color: $black;
+    color: $white;
+  }
+
+  i.fa.fa-fw.fa-search {
+    color: rgba(89, 122, 150, .8);
+  }
+}
+
+.site-header .header-image {
+  height: 60px;
+  width: auto;
+}
+
+
+
+
+/**
+
+
+
+
+
+
+.main-menu ul li a {
+	color:#262626;
+	text-decoration:none;
+	font-weight:300;
+	font-size:0.9rem;
+    letter-spacing:0.5px;
+	line-height:32px;
+	line-height:2rem;
+    height:100%;
+    width:100%;
+    text-transform: uppercase;
+    padding:0.5rem 1rem;
+    display: flex;
+}
+
+.main-menu ul li a:not(:only-child):after {
+    content: '\f103';
+    font-family: fontawesome;
+    font-size: 85%;
+    padding-left: 0.25rem;
+}
+
+#menu-main-menu li {
+    position: relative;
+}
+
+
+.main-menu ul li.current-menu-item:after {
+    bottom:0.5rem;
+    opacity: 1;
+    background: #262626;
+}
+
+.main-menu ul ul li.current-menu-item > a {
+	background:#363636;
+    color:#fff;
+}
+
+
+.main-menu ul li:hover:after {
+    bottom:0.5rem;
+    opacity: 1;
+
+    transition: 0.2s all;
+}
+
+.main-menu ul ul a:hover {
+	background:#161616;
+    color:#fff;
+}
+
+.main-menu ul li li:after {
+    display:none
+}
+
+
+
+.main-menu ul ul {
+	display:none;
+	position:absolute;
+	top:100%;
+	background:#262626;
+	padding:0;
+	width:192px;
+	width:12rem;
+    left:0;
+}
+.main-menu .edge ul {
+    right:0;
+    left:inherit;
+}
+
+.main-menu ul ul li {
+    border-bottom: 1px solid #363636;
+}
+
+.main-menu ul ul a {
+	line-height:120%;
+	padding:0.75rem 1rem;
+    color: #cccccc;
+}
+
+.main-menu ul ul ul {
+	top:0;
+	left:100%;
+    width:100%;
+}
+.main-menu .edge ul ul {
+    right:100%
+}
+
+.main-menu ul li:hover > ul {
+	display:block;
+    z-index:999;
+}
+
+**/
